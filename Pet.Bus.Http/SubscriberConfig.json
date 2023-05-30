@@ -1,0 +1,11 @@
+ [
+	{
+		"name": "Rescue.API",
+		"ConnectionString": "PetAdopted.Connection",
+		"CallbackUri": "https://localhost:7001/PetAdoptedEvent"
+	},
+	{
+		"name": "Hospital.API",
+		"ConnectionString": "PetTransfered.Connection",
+		"CallbackUri": "https://localhost:7002/PetTransferedEvent"
+	}]
